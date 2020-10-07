@@ -18,7 +18,8 @@ header {
   background-position: center;
   position: relative;
 }
-.home-page header {
+.home-page header,
+.new-post-page header {
   background-image: url(../assets/pexels-zaksheuskaya-1561020.jpg);
 }
 
@@ -45,7 +46,7 @@ header::before {
   background-size: cover;
 }
 
-.profile-name {
+.profile-namem .title {
   font-size: 3em;
   font-weight: bold;
 }
